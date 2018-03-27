@@ -11,6 +11,15 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 ## Setup
 
+The repo contains an Eclipse Project, with which to import and run this Java program.
+
+### 1. Import
+
+1. Open Eclipse
+2. File >Import
+3. select Existing Maven Project and import the cb-coap project from your filesystem
+
+### 2. Configure
 cb-coap/src/main/java/com/clearblade/coap/cb_coap/App.java
 
 1. Enter your System Settings
@@ -21,6 +30,7 @@ cb-coap/src/main/java/com/clearblade/coap/cb_coap/App.java
 
 1. Set CoAP URL to your source CoAP URL
 2. Run `App.java`
+3. MQTT Messages are published by default on `coap-test` topic
 
 
 ## API
