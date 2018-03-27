@@ -17,12 +17,20 @@ import com.clearblade.java.api.Message;
  */
 public class App 
 {
-	private static String SYSTEM_KEY = "YOUR_SYSTEM_KEY";
-	private static String SYSTEM_SECRET = "YOUR_SYSTEM_SECRET";
-	private static String PLATFORM_URL = "YOUR_PLATFORM_URL";
-	private static String MESSAGING_URL = "YOUR_MESSAGING_URL";
-	private static String EMAIL = "YOUR_EMAIL";
-	private static String PASSWORD = "YOUR_PASSWORD";
+	// TODO Populate your system settings
+	// These can be found in System Settings in ClearBlade Platform Web Console
+	// ex. a483c4a90aacaea9cfbfe9a68d3b
+	private static String SYSTEM_KEY = "<YOUR_SYSTEM_KEY>";
+	// ex. A484C4A90BE0B2E4E1FDE497E89301
+	private static String SYSTEM_SECRET = "<YOUR_SYSTEM_SECRET>";
+	// ex. https://platform.clearblade.com
+	private static String PLATFORM_URL = "<PLATFORM_URL>";
+	// ex. tcp://staging.clearblade.com:1883
+	private static String MESSAGING_URL = "<MESSAGING_URL>";
+	
+	// TODO Use or create a service user in ClearBlade Platform Web Console
+	private static String EMAIL = "<EMAIL>";
+	private static String PASSWORD = "<PASSWORD>";
 	private static HashMap<String, Object> initOptions = new HashMap<String, Object>();
 	private static Message message = null;
 	private static boolean initFlag = false;
@@ -75,3 +83,4 @@ public class App
 		return initFlag;
     }
 }
+
