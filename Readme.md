@@ -19,9 +19,9 @@ cb-coap/src/main/java/com/clearblade/coap/cb_coap/App.java
 
 ## Usage
 
-cb-coap/src/main/java/com/clearblade/coap/cb_coap/App.java
-
 1. Set CoAP URL to your source CoAP URL
+2. Run `App.java`
+
 
 ## API
 
