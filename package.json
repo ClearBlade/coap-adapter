@@ -2,15 +2,22 @@
     "asset_types": [
         "Adapters"
     ],
-    "version": "1.0.0",
-    "homepage": "https://ipm.clearblade.com",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "clearblade",
         "iot",
-        "platform"
+        "platform",
+        "coap",
+        "java",
+        "eclipse",
+        "maven",
+        "mqtt",
+        "sdk",
+        "broker",
+        "message"
     ],
-    "programming_lang": "Java",
+    "prog_lang": ["Java"],
     "cloud": [],
     "things": [],
     "domains": [],
@@ -25,7 +32,16 @@
     "description": "CoAP to MQTT Adapter for the ClearBlade Cloud and Edge Platform",
     "author": {
         "name": "ClearBlade Official",
-        "email": "ipm@clearblade.com",
-        "private": false
-    }
+        "email": "ipm@clearblade.com"
+    },
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ClearBlade/coap-adapter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ClearBlade/coap-adapter/issues"
+    },
+    "homepage": "https://github.com/ClearBlade/coap-adapter#readme"
+
 }

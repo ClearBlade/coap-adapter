@@ -38,8 +38,3 @@ cb-coap/src/main/java/com/clearblade/coap/cb_coap/App.java
 This program does not take any runtime parameters.
 
 Utilizes ClearBlade's Java SDK ([src](https://github.com/ClearBlade/ClearBladeJavaSDK))
-
-## Thank you
-
-Powered by ClearBlade Enterprise IoT Platform: [https://platform.clearblade.com](https://platform.clearblade.com)
-
